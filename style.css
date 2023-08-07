@@ -18,6 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 0;
+    transition: 0.5s;
 }
 
 button {
@@ -30,7 +32,7 @@ button {
 }
 
 .nav {
-    position: relative;
+    position: fixed;
     width: 0;
     height: 100%;
     display: flex;
